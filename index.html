@@ -11,6 +11,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:200&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="media.css">
 </head>
 
 <body>
@@ -20,7 +21,7 @@
 				<!--ссылка в которую обернута картинка-->
 				<img class="logo" src="logo.png" alt="AXIT">
 			</a>
-			<ul class="menu">
+			<ul class="menu" id="menu">
 				<li class="menu_item">
 					<a href="#">Features</a>
 				</li>
@@ -37,8 +38,16 @@
 					<a href="#">Contact</a>
 				</li>
 			</ul>
+			<div class="burger" id="burger">
+                <span class="burger-line">
+
+                </span>
+            </div>
 		</div>
 	</header>
+	<section class="bg" id="bg">
+
+	</section>
 
 	<section class="top">
 		<div class="container top_container">
@@ -97,7 +106,7 @@
 				<div class="fake-checkbox">
 					TAB 1
 				</div>
-				<div class="features_middle">
+				<div class="features_middle features_middle_left">
 					<div class="container_features_middle">
 						<h2>Tabs with transitioning  effect.</h2>
 						<p class="center_block_p1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi a officia facilis at, cum perspiciatis illo modi, saepe accusamus harum asperiores nisi laboriosam in, ea quo molestiae dolorem rerum nihil.</p>
@@ -186,7 +195,7 @@
 
     
 	<div class="container-table-price">
-<div class="" >
+<div class="priceblock" >
    
     <ul class="list">
 		<li class="list-1-string-1">
@@ -223,7 +232,7 @@
 	</ul>
 
 </div>
-<div class="" >
+<div class="priceblock" >
     
     <ul class="list">
 		<li class="list-1-string-1">
@@ -260,7 +269,7 @@
 		</li>
 	</ul>
 </div>
-	<div>
+	<div class="priceblock">
 		<ul class="list">
 			<li class="list-1-string-1">
 			Enterprise
@@ -400,7 +409,7 @@
 	<span>© 2015 Axure Themes</span>
 	
 </footer>
-
+ <script src="main.js"></script>
 </body>
 
 </html>
