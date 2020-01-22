@@ -566,9 +566,8 @@ align-items: row;
 justify-content: space-between;
 height: 610px;
 width: 1100px;
-margin:auto ;
-position: relative;
-top: -60px;
+margin: auto;
+margin-top: 60px;
 
 }
 
@@ -609,13 +608,10 @@ font-style: italic;
 .rewiew_photo{
 	width: 200px;
 	height: 100px;
-	position: relative;
-	top:-150px;
-	right: 0px;
 	display: flex;
-	flex-direction: row;
 	justify-content: flex-start;
-	margin: 0;
+	margin: 24px;
+	margin-right: 90px;
 	padding: 0;
 	
 }

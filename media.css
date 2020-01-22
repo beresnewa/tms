@@ -267,7 +267,7 @@
         padding-left: 10px;
     }
 
-    @media (max-width:576px) {
+    @media (max-width:320px) {
         .top-form{
             margin-bottom: 10px;
         }
@@ -295,6 +295,10 @@
 
         .list, .list-part2{
             width: 300px;
+        }
+
+        .container-all-rewiew{
+            flex-direction: row;
         }
     }
 
